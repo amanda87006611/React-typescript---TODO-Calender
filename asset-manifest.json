@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a092b54c.css",
+    "main.js": "/static/js/main.ad19efe4.js",
+    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "static/media/NotoSansTC-Bold.otf": "/static/media/NotoSansTC-Bold.ad1bddadd1f6b41fe4e7.otf",
+    "static/media/NotoSansTC-Medium.otf": "/static/media/NotoSansTC-Medium.e9b9b665062ef9a13ea6.otf",
+    "static/media/NotoSansTC-Regular.otf": "/static/media/NotoSansTC-Regular.b018ff7b4ccc245480a4.otf",
+    "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/Montserrat-Bold.ttf": "/static/media/Montserrat-Bold.079ca05d3ded9bc107ab.ttf",
+    "static/media/Montserrat-Medium.ttf": "/static/media/Montserrat-Medium.e2d60bc49517598c0ce8.ttf",
+    "index.html": "/index.html",
+    "main.a092b54c.css.map": "/static/css/main.a092b54c.css.map",
+    "main.ad19efe4.js.map": "/static/js/main.ad19efe4.js.map",
+    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a092b54c.css",
+    "static/js/main.ad19efe4.js"
+  ]
+}
