@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/React-typescript---TODO-Calender/static/css/main.062cb43c.css",
-    "main.js": "/React-typescript---TODO-Calender/static/js/main.ee17df60.js",
-    "static/js/787.28cb0dcd.chunk.js": "/React-typescript---TODO-Calender/static/js/787.28cb0dcd.chunk.js",
-    "static/media/NotoSansTC-Bold.otf": "/React-typescript---TODO-Calender/static/media/NotoSansTC-Bold.ad1bddadd1f6b41fe4e7.otf",
-    "static/media/NotoSansTC-Medium.otf": "/React-typescript---TODO-Calender/static/media/NotoSansTC-Medium.e9b9b665062ef9a13ea6.otf",
-    "static/media/NotoSansTC-Regular.otf": "/React-typescript---TODO-Calender/static/media/NotoSansTC-Regular.b018ff7b4ccc245480a4.otf",
-    "static/media/Montserrat-Regular.ttf": "/React-typescript---TODO-Calender/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
-    "static/media/Montserrat-Bold.ttf": "/React-typescript---TODO-Calender/static/media/Montserrat-Bold.079ca05d3ded9bc107ab.ttf",
-    "static/media/Montserrat-Medium.ttf": "/React-typescript---TODO-Calender/static/media/Montserrat-Medium.e2d60bc49517598c0ce8.ttf",
-    "index.html": "/React-typescript---TODO-Calender/index.html",
-    "main.062cb43c.css.map": "/React-typescript---TODO-Calender/static/css/main.062cb43c.css.map",
-    "main.ee17df60.js.map": "/React-typescript---TODO-Calender/static/js/main.ee17df60.js.map",
-    "787.28cb0dcd.chunk.js.map": "/React-typescript---TODO-Calender/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/calendar/static/css/main.e38815f4.css",
+    "main.js": "/calendar/static/js/main.af270c35.js",
+    "static/js/787.28cb0dcd.chunk.js": "/calendar/static/js/787.28cb0dcd.chunk.js",
+    "static/media/NotoSansTC-Bold.otf": "/calendar/static/media/NotoSansTC-Bold.ad1bddadd1f6b41fe4e7.otf",
+    "static/media/NotoSansTC-Medium.otf": "/calendar/static/media/NotoSansTC-Medium.e9b9b665062ef9a13ea6.otf",
+    "static/media/NotoSansTC-Regular.otf": "/calendar/static/media/NotoSansTC-Regular.b018ff7b4ccc245480a4.otf",
+    "static/media/Montserrat-Regular.ttf": "/calendar/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/Montserrat-Bold.ttf": "/calendar/static/media/Montserrat-Bold.079ca05d3ded9bc107ab.ttf",
+    "static/media/Montserrat-Medium.ttf": "/calendar/static/media/Montserrat-Medium.e2d60bc49517598c0ce8.ttf",
+    "index.html": "/calendar/index.html",
+    "main.e38815f4.css.map": "/calendar/static/css/main.e38815f4.css.map",
+    "main.af270c35.js.map": "/calendar/static/js/main.af270c35.js.map",
+    "787.28cb0dcd.chunk.js.map": "/calendar/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.062cb43c.css",
-    "static/js/main.ee17df60.js"
+    "static/css/main.e38815f4.css",
+    "static/js/main.af270c35.js"
   ]
 }
