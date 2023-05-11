@@ -13,6 +13,7 @@ import {
 } from "date-fns";
 import styles from "./style/Calendar.module.scss";
 import moment from "moment";
+
 // import dayjs from "dayjs";
 
 import { GoArrowLeft, GoArrowRight } from "react-icons/go";
@@ -49,14 +50,10 @@ const Calendar: React.FC<Props> = ({
   // eventProps,
   // active,
 }) => {
-  console.log("events", events);
-
   const [selectedDate, setSelectedDate] = useState(new Date());
   const [activeDate, setActiveDate] = useState(new Date());
   const [calendarWidth, setCalendarWidth] = useState(0);
   const wrapperRef = useRef(null);
-
-  console.log("selectedDate", selectedDate);
 
   let resizeWidth = () => {
     let width: any = document.getElementById("calendar-head")?.clientWidth;
