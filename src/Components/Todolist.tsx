@@ -1,7 +1,10 @@
+import { useState, useEffect } from "react";
+
 import styles from "./style/todo.module.scss";
+import axios from "axios";
+
 import TextField from "./Utility/TextField";
 import Calendar from "./Utility/Calendar";
-import { useState } from "react";
 
 import { BsPlusSquare } from "react-icons/bs";
 import { MdCheckBoxOutlineBlank, MdCheckBox } from "react-icons/md";
@@ -11,10 +14,34 @@ const Todolist = () => {
   const [todoValue, setTodoValue] = useState<any>("");
   const [response, setResponse] = useState<any>("");
 
+  const [lineNotifyPosts, setLineNotifyPosts] = useState([]);
+
   const configuration = new Configuration({
     organization: "org-oDyMYE9LdXp6PMWOetgRsC2Q",
     apiKey: "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",
   });
+
+  const settings = {
+    method: "POST",
+    url: "https://notify-api.line.me/api/notify",
+    headers: {
+      "Content-Type": "application/x-www-form-urlencoded",
+      Authorization: "Bearer CCPYpJTNg38X7o97eqmMsjaLckFjq60LhcPIEFUh59b",
+    },
+    data: { message: "測試提醒。" },
+  };
+
+  useEffect(() => {
+    const NotifyPost = async () => {
+      try {
+        const res = await axios(settings);
+        return res;
+      } catch (err) {
+        console.log("errRes", err);
+      }
+    };
+    NotifyPost();
+  }, []);
 
   //test props (events)
   let events = [
