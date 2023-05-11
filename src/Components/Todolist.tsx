@@ -14,26 +14,25 @@ const Todolist = () => {
   const [todoValue, setTodoValue] = useState<any>("");
   const [response, setResponse] = useState<any>("");
 
-  const [lineNotifyPosts, setLineNotifyPosts] = useState([]);
+  // const [lineNotifyPosts, setLineNotifyPosts] = useState([]);
 
   const configuration = new Configuration({
     organization: "org-oDyMYE9LdXp6PMWOetgRsC2Q",
     apiKey: "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",
   });
 
-  const settings = {
-    method: "POST",
-    url: "https://notify-api.line.me/api/notify",
-    headers: {
-      "Content-Type": "application/x-www-form-urlencoded",
-      Authorization: "Bearer CCPYpJTNg38X7o97eqmMsjaLckFjq60LhcPIEFUh59b",
-    },
-    data: { message: "測試提醒。" },
-  };
-
   useEffect(() => {
     const NotifyPost = async () => {
       try {
+        const settings = {
+          method: "POST",
+          url: "https://notify-api.line.me/api/notify",
+          headers: {
+            "Content-Type": "application/x-www-form-urlencoded",
+            Authorization: "Bearer CCPYpJTNg38X7o97eqmMsjaLckFjq60LhcPIEFUh59b",
+          },
+          data: { message: "測試提醒。" },
+        };
         const res = await axios(settings);
         return res;
       } catch (err) {

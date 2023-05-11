@@ -12,7 +12,7 @@ const App: React.FC = () => {
   return (
     <div className='APP'>
       <Provider store={store}>
-        <BrowserRouter basename='index/todoList'>
+        <BrowserRouter>
           <TodoPlatform />
         </BrowserRouter>
       </Provider>
